@@ -29,12 +29,14 @@ section:nth-child(5)>h3+span{
 }
 
 /* EXO 6 */
+/* OU section:nth-child(6)>img */
 img{
     border: blue 2px solid;
     border-radius: 15px;
 }
 
 /* EXO 7 */
+/* OU section:nth-child(7)>p:hover */
 body:last-child>section>p:hover{ 
     color: chartreuse;
 }
