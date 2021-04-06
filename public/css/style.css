@@ -34,9 +34,13 @@ img{
 }
 
 /* EXO 7 */
-section:last-child:hover{
+/*body:last-child>p:hover{
     color: chartreuse;
+}*/
+section:nth-child(7)>p:hover{
+    color: greenyellow;
 }
+
 
 
 
