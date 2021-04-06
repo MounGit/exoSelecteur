@@ -1,0 +1,42 @@
+/* EXO 1 */
+section{
+    padding-bottom: 50px;
+    border: black solid 1px;
+}
+section:first-child>h4{
+    color: blue;
+}
+
+/* EXO 2 */
+section:nth-child(2){
+    border-bottom: red 5px solid;
+}
+
+/* EXO 3 */
+section:nth-child(3)>h3,section:nth-child(3)>ul{
+    color: red;
+}
+
+/* EXO 4 */
+section:nth-child(4)>ul>li:nth-child(2){
+    font-size: 25px;
+}
+
+/* EXO 5 */
+section:nth-child(5)>h3+span{
+    color: blue;
+}
+
+/* EXO 6 */
+img{
+    border: blue 2px solid;
+    border-radius: 15px;
+}
+
+/* EXO 7 */
+section:last-child:hover{
+    color: chartreuse;
+}
+
+
+
